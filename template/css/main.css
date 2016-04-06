@@ -1,0 +1,320 @@
+body{
+  padding-top: 70px;
+}
+
+h1{
+  font-family: 'Raleway', sans-serif;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+}
+
+p{
+  font-family: 'Raleway', bold;
+  color: #000000;
+  font-size: 20px;
+}
+
+.m-y-2{
+  color: rgb(57, 57, 57);
+}
+
+/*=================
+Jumbotron
+==================*/
+.jumbotron{
+  background-image: url("img/doctor.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+/*=================
+End of Jumbotron
+==================*/
+
+/* ================
+Navbar
+=================== */
+.navbar-custom {
+  background-color: #4DB6AC;
+}
+
+.navbar-btn{
+  margin-top: 15px;
+  background-color: #4DB6AC;
+  border-color: #4DB6AC;
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+  margin-right: 100px;
+}
+
+.navbar-btn i.icoHome:hover{
+  background-color: #009688;
+  margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+  width: 50px;
+	height: 50px;
+}
+
+/*
+.navbar-btn:hover{
+  background-color: #009688;
+  border-color: #4DB6AC;
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+  margin-right: 100px;
+}
+*/
+/*==============
+End of Navbar
+=============== */
+
+/* ===================
+General Container info
+======================*/
+.container{
+  margin-top: 55px;
+}
+/*=======================
+End of general container
+========================*/
+
+/*=================
+Information Title
+==================*/
+.infoTitle{
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(0, 0, 0);
+}
+/*======================
+End of Information Title
+========================*/
+
+/*=================
+Carousel
+==================*/
+.media-carousel
+{
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+/* Previous button  */
+.media-carousel .carousel-control.left
+{
+  left: -12px;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Next button  */
+.media-carousel .carousel-control.right
+{
+  right: -12px !important;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li
+{
+  background: #c0c0c0;
+}
+.media-carousel .carousel-indicators .active
+{
+  background: #333333;
+}
+.media-carousel img
+{
+  width: 250px;
+  height: 100px
+}
+/*=================
+End of Carousel
+==================*/
+
+/*=====================
+Button for appointments
+======================*/
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+  background-color: rgb(1, 145, 37);
+}
+/*============================
+End of Button for appointments
+==============================*/
+
+/*=========================
+  Follow me icons
+ ================= */
+/* footer social icons */
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding-bottom:  35px;
+}
+ul.social-network li {
+  align-items: center;
+	display: inline;
+	margin: 0 5px;
+}
+
+
+/* footer social icons */
+.social-network a.icoYouTube:hover {
+	background-color: #BB0000;
+}
+.social-network a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+	background-color:#33ccff;
+}
+.social-network a.icoGoogle:hover {
+	background-color:#BD3518;
+}
+.social-network a.icoVimeo:hover {
+	background-color:#0590B8;
+}
+.social-network a.icoLinkedin:hover {
+	background-color:#007bb7;
+}
+.social-network a.icoInstagram:hover {
+    background-color: #125688;
+}
+.social-network a.icoSkype:hover {
+    background-color: #12A5F4;
+}
+.social-network a.icoEnvelope:hover {
+    background-color: #22263D;
+}
+
+.social-network a.icoYouTube:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i,
+.social-network a.icoInstagram:hover i, .social-network a.icoSkype:hover i, .social-network a.icoEnvelope:hover i {
+	color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}
+
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+}
+.social-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.social-circle i {
+	color: #696969;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+a {
+ background-color: #979797;
+}
+/*=================
+End of Follow Us
+==================*/
+
+#docTitle{
+  padding-top: 15px;
+  font-size: 35px;
+  font-family: 'Raleway', sans-serif;
+  color: #FFFFFF;
+}
+
+#jumboTitle{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #4DB6AC;
+  margin-left: 100px;
+}
+
+#jumboLead{
+  font-family: 'Raleway', sans-serif;
+  color: #000000;
+  font-size: 35px;
+  margin-top: 500px;
+  text-align: center;
+}
+
+#titleAboutUs{
+  padding-bottom: 35px;
+  font-family: 'Raleway', sans-serif;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+#imgAboutUs{
+  display: block;
+  max-width: 500px;
+  max-width: 500px;
+  width: auto;
+  height: auto;
+}
+
+#titleFollowUs{
+  font-family: 'Raleway', sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+#containerCarousel{
+  margin-left: 80px;
+}
+
+#containerSocialNetworks{
+  margin-left: 275px;
+}
